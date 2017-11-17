@@ -9,7 +9,7 @@ __1.将 shell脚本放在项目的根目录下(与 YourApp.xcodeproj 同一层)_
 __2.YourAppName => TARGETS => YourAppName => Build Phases 点击左上角的'+'的图标,选择 New Run Script Phase__  
 在 shell 下面的黑色输入框写上shell的路径:
 ```
-"${SRCROOT}/watermark_icon.sh"
+"${SRCROOT}/tzmark_icon.sh"
 ```
 如下图所示:  
 ![add_run_script](https://github.com/ToninZhao/TZMarkAppIcon/blob/master/step01.png "add_run_script")  
