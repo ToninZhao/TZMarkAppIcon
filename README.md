@@ -14,8 +14,10 @@ __2.YourAppName => TARGETS => YourAppName => Build Phases 点击左上角的'+'�
 如下图所示:  
 ![add_run_script](https://github.com/ToninZhao/TZMarkAppIcon/blob/master/step01.png "add_run_script")  
 __3.修改 Xcode 默认设置__  
+```
 YourProjectName => PROJECT => 选中项目 => build setting => Compress Png Files => Debug 的属性由 No 改为 Yes.  
-YourProjectName => PROJECT => 选中项目 => build setting => Remove Text Metadata From Png Files => Debug 的属性由 No 改为 Yes.  
+YourProjectName => PROJECT => 选中项目 => build setting => Remove Text Metadata From Png Files => Debug 的属性由 No 改为 Yes. 
+```
 #### 最后,重新 build 项目.  
 ![](https://github.com/ToninZhao/TZMarkAppIcon/blob/master/AppIcon.png)  
 ![](https://github.com/ToninZhao/TZMarkAppIcon/blob/master/AppIcon_blur.png) 
